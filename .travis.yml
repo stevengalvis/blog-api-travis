@@ -1,2 +1,9 @@
 language: node_js
 node_js: node
+deploy:
+  provider: heroku
+  api_key:
+    secure: Tjgzvw/2DZjy/IN+RkMUAhkOdITkOexcqO/f2s3rxxYonFeqd1YRDrBGw4gV1xH58JW0ex5vUmHmq/LLfmhEL1X7pwgC3OdA08ZhyuClQmip2toYR/6hGqMcLDekZWadx+U57zMMz15eMwAvWRbV6r85e2kSXLbygu4kjqjPIOF4f7qV7sa3Kwbg/2cZlTrIe38NYxJhi5mzq8E42YdE9lM54tYF/BYPRUY4rmKZjWWbsLuLwM6QxHmXfQBX8uAp7qe8gPABUtdjwTz913+CnW9mi8VAe485e8nIYVBFgbdlDU+IJ/qd0imF+HfnrkDVXA+WjhkKh6aiQY9uRgD98382aa35c3H9GKj+IA0HC1H6E0eAnt9ovofiF/xeiMJfwMVrKX7ABU35Jr3KWgG77OA5Eam9UPVnt+TwvS0qKqSTI8AVx9ppaoQ2j1lbQRaZgZ3LfhyTtS3o85c8DF9ZoUJiwimEtwT8c7xxCFwQh+kF4fYJjogcyCaWn9aQgvUuZDVWhn9XAEhvWLAX93MEum2wmRJont66w7xWqXNpKtQdSSqzGmmdyKkicVYrc0edG1eY1npgieHF2BU7VE9SGvQwMM1K+hW6uJUIJE9icc4WWCwamryrrCHl0zLlV/WTwU1knZZfR0gz277HKppG6vWZrSWhP0YhV3gbqJ9OpVA=
+  app: murmuring-shore-36034
+  on:
+    repo: stevengalvis/blog-api-travis
